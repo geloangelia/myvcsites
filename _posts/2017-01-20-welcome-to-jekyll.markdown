@@ -6,20 +6,12 @@ categories: jekyll update
 ---
 
 
-<table style="width:100%">
-  <tr>
-    <th>No.</th>
-    <th>Name</th> 
-    <th>Type</th>
-  </tr>
-  <tr>
+<ul>
    {% for items in site.data.vclist %}
-    <td>{{ items.No }}</td>
-    <td>{{ items.Name }}</td> 
-    <td>{{ items.Name }}</td>
-  </tr>
+   <li>{{ items.No }} </li>
+   <li>{{ items.Name }} </li>
   {% end for %}
-  </table>
+  </ul>
 
 <table>
   <thead>
