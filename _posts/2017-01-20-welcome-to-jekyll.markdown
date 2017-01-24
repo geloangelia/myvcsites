@@ -7,15 +7,21 @@ categories: jekyll update
 
 
 <table style="margin:auto">
+     {% for items in site.data.vclist %}
     <tr>
-    {% for items in site.data.vclist %}
         <td>
             <ul>
                 <li style="float:left;display:inline">{{ items.No }}</li>
-                <li style="float:left;display:inline">{{ items.No }}</li>
+            </ul>
+        </td>
+        
+        <td>
+            <ul>
+                <li style="float:left;display:inline">{{ items.Name }}</li>
             </ul>
         </td>
     </tr>
+    {% endfor %}
 </table>
 
 
