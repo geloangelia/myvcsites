@@ -19,18 +19,6 @@ categories: jekyll update
 </table>
 
 
-
-<ul>
-{% for items in site.data.vclist %}
-  <li>
-      {{ items.No }}
-  </li>
-  <li>
-      {{ items.Name }}
-  </li>
-{% endfor %}
-</ul>
-
 <table>
   <thead>
     <tr>
