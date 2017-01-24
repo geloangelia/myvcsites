@@ -7,8 +7,8 @@ categories: jekyll update
 
 
 <table style="margin:auto">
-     {% for items in site.data.vclist %}
     <tr>
+     {% for items in site.data.vclist %}
         <td>
             <ul>
                 <li style="float:left;display:inline">{{ items.No }}</li>
@@ -20,8 +20,8 @@ categories: jekyll update
                 <li style="float:left;display:inline">{{ items.Name }}</li>
             </ul>
         </td>
+         {% endfor %}
     </tr>
-    {% endfor %}
 </table>
 
 
