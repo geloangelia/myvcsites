@@ -4,14 +4,16 @@ title:  "Venture Capital!"
 date:   2017-01-20 22:54:29 +0800
 categories: jekyll update
 ---
-
-
-<ul>
-   {% for items in site.data.vclist %}
-   <li>{{ items.No }} </li>
-   <li>{{ items.Name }} </li>
+  
+  <dl>
+  {% for items in site.data.vclist %}
+  <dt>{{ items.No }}</dt>
+    {% end for %}
+    
+      {% for items in site.data.vclist %}
+  <dd>{{ items.Name }}</dd>
   {% end for %}
-  </ul>
+</dl>
 
 <table>
   <thead>
