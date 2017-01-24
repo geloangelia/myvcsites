@@ -6,15 +6,15 @@ categories: jekyll update
 ---
 
 <ul>
-{% for member in site.data.vclist %}
+{% for items in site.data.vclist %}
   <li>
-    <a href="https://github.com/{{ member.github }}">
-      {{ member.Name }}
-    </a>
+      {{ items.No }}
+  </li>
+  <li>
+      {{ items.Name }}
   </li>
 {% endfor %}
 </ul>
-
 
 <table>
   <thead>
