@@ -14,7 +14,8 @@ categories: jekyll update
                 <li style="float:left;display:inline">{{ items.No }}</li>
             </ul>
         </td>
-        
+    </tr>
+    <tr>
         <td>
             <ul>
                 <li style="float:left;display:inline">{{ items.Name }}</li>
