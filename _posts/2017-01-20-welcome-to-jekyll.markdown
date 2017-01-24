@@ -5,11 +5,23 @@ date:   2017-01-20 22:54:29 +0800
 categories: jekyll update
 ---
 
+
+<table style="margin:auto">
+    <tr>
+    {% for items in site.data.vclist %}
+        <td>
+            <ul>
+                <li style="float:left;display:inline">{{ items.No }}</li>
+                <li style="float:left;display:inline">{{ items.No }}</li>
+            </ul>
+        </td>
+    </tr>
+</table>
+
+
+
 <ul>
 {% for items in site.data.vclist %}
- <li>
-{{header}}
- </li>
   <li>
       {{ items.No }}
   </li>
