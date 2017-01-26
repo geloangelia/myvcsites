@@ -7,8 +7,8 @@ categories: jekyll update
 Venture Capital List.
 
 <table  align="left">
+ {% for list in site.data.vclist %}
   <tr>
-  {% for list in site.data.vclist %}
    <td>
         {{ list.No }}
     </td>
