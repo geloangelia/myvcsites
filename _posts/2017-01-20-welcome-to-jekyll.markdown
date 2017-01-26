@@ -20,7 +20,7 @@ Francis
         {{ list.Type }}
     </td>
     <td>
-        {{ list.3yfundso }}
+        {{ list.Website }}
     </td>
   </tr>
 {% endfor %}
