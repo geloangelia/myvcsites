@@ -5,19 +5,19 @@ date:   2017-01-20 22:54:29 +0800
 categories: jekyll update
 ---
 
-Francis Angelo G
+Francis Angelo GG
 
 <table>
-{% for member in site.data.vclist %}
+{% for list in site.data.vclist %}
   <tr>
     <td>
-        {{ member.Est.MostRecentFundDate }}
+        {{ list.,3 Year Funds Offered }}
     </td>
     <td>
-        {{ member.InvestorLocation }}
+        {{ list.3 Year Funds Sold }}
     </td>
     <td>
-        {{ member.InvestorCity }}
+        {{ list.Est. Most Recent Fund Date }}
     </td>
   </tr>
 {% endfor %}
