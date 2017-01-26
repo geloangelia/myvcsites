@@ -12,6 +12,8 @@ Venture Capital List!
   <th>
   No.
   </th>	
+  </tr>
+  <tr>
    <td>
         {{ list.No }}
     </td>
