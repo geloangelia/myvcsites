@@ -8,13 +8,9 @@ Venture Capital List.
 
 <table  align="left">
   <tr>
-  {% for list in site.data.vclist %}
   <th>
-   {{ list.Header }}
+   {{ Header }}
   </th>	
-  {% endfor %}
-  
-  
   <tr>
   {% for list in site.data.vclist %}
    <td>
