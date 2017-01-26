@@ -51,7 +51,8 @@ Venture Capital List!
   Average Growth Score
   </th>
   </tr>
-  
+  </table>
+  <table  align="left">
   <tr>
   {% for list in site.data.vclist %}
    <td>
@@ -96,6 +97,6 @@ Venture Capital List!
     <td>
         {{ list.AverageGrowthScore}}
     </td>
-    {% endfor %}
   </tr>
+  {% endfor %}
 </table>
