@@ -19,6 +19,21 @@ Francis
     <td>
         {{ member.Type }}
     </td>
+     <td>
+        {{ member.3 Year Funds Offered }}
+    </td>
+   <td>
+        {{ member.3 Year Funds Sold }}
+    </td>
+    <td>
+        {{ member.Est. Most Recent Fund Date }}
+    </td>
+    <td>
+        {{ member.Investor Location }}
+    </td>
+    <td>
+        {{ member.Investor City }}
+    </td>
   </tr>
 {% endfor %}
 </table>
