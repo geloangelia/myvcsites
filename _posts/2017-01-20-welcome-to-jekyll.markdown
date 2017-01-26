@@ -19,6 +19,9 @@ Francis
       <td>
         {{ list.Type }}
     </td>
+     <td>
+        {{ list.Tyfundso }}
+    </td>
     <td>
         {{ list.Website }}
     </td>
