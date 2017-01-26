@@ -5,7 +5,7 @@ date:   2017-01-20 22:54:29 +0800
 categories: jekyll update
 ---
 
-Francis GGG
+Francis GGGHH
 
 <table>
 {% for list in site.data.vclist %}
@@ -20,7 +20,7 @@ Francis GGG
         {{ list.Type }}
     </td>
      <td>
-        {{ list.Tyfundso }}
+        {{ list.3YearFundsOffered }}
     </td>
     <td>
         {{ list.Website }}
