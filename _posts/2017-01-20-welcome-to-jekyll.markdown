@@ -8,7 +8,7 @@ categories: jekyll update
 Francis Angelo GGG
 
 <table>
-{% for list in site.data.vclists %}
+{% for list in site.data.vclist %}
   <tr>
    <td>
         {{ list.,No }}
