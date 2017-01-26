@@ -10,6 +10,9 @@ Francis Angelo GG
 <table>
 {% for list in site.data.vclists %}
   <tr>
+   <td>
+        {{ list.,No }}
+    </td>
     <td>
         {{ list.,3 Year Funds Offered }}
     </td>
