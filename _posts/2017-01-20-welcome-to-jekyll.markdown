@@ -96,6 +96,6 @@ Venture Capital List..
     <td>
         {{ list.AverageGrowthScore}}
     </td>
+    {% endfor %}
   </tr>
-{% endfor %}
 </table>
