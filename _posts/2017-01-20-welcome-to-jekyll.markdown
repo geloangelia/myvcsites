@@ -8,7 +8,7 @@ categories: jekyll update
 Francis Angelo GG
 
 <table>
-{% for list in site.data.vclist %}
+{% for list in site.data.vclists %}
   <tr>
     <td>
         {{ list.,3 Year Funds Offered }}
