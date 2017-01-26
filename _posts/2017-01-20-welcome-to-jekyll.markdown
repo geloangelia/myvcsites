@@ -8,51 +8,13 @@ Venture Capital List..
 
 <table  align="left">
   <tr>
+  {% for list in site.data.vclist %}
   <th>
-  No.
+   {{ list.Header }}
   </th>	
-   <th>
-  Name
-  </th>
-   <th>
-  Type
-  </th>
-  <th>
-  3 Year Funds Offered
-  </th>
-    <th>
-  3 Year Funds Sold
-  </th>
-  <th>
-  Est. Most Recent Fund Date
-  </th>
-  <th>
-  Investor Location
-  </th>
-   <th>
-  Investor City
-  </th>
-   <th>
-  Investor State
-  </th>
-   <th>
-  Investor Country
-  </th>
-   <th>
-  Portfolio Size
-  </th>
-   <th>
-  Number of Deals
-  </th>
-   <th>
-  Website
-  </th>
-  <th>
-  Average Growth Score
-  </th>
-  </tr>
-  </table>
-  <table  align="left">
+  {% endfor %}
+  
+  
   <tr>
   {% for list in site.data.vclist %}
    <td>
