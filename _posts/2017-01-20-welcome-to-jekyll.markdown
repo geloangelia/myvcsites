@@ -7,7 +7,6 @@ categories: jekyll update
 <h1>Venture Capital List</h1>
 
 <table  align="left">
-<th> {{ Header }} </th>
  {% for list in site.data.vclist %}
   <tr>
    <td>
