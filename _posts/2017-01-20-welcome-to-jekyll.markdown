@@ -7,9 +7,6 @@ categories: jekyll update
 Venture Capital List.
 
 <table  align="left">
-  <th>
-HEADER
-  </th>	
   <tr>
   {% for list in site.data.vclist %}
    <td>
