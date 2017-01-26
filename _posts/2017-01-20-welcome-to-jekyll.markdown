@@ -20,7 +20,7 @@ Francis Angelo G
         {{ list.Type }}
     </td>
     <td>
-        {{ list.3 Year Funds Offered }}
+        {{ list.3yfundso }}
     </td>
   </tr>
 {% endfor %}
