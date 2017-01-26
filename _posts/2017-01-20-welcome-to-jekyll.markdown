@@ -12,6 +12,12 @@ Venture Capital List..
   <th>
   No.
   </th>	
+   <th>
+  Name
+  </th>
+   <th>
+  Type
+  </th>
   </tr>
   <tr>
    <td>
