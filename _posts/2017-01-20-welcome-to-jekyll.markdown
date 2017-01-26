@@ -5,7 +5,7 @@ date:   2017-01-20 22:54:29 +0800
 categories: jekyll update
 ---
 
-Francis Angelo
+Francis Angelo G
 
 <table>
 {% for member in site.data.vclist %}
