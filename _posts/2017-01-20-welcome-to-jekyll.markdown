@@ -23,7 +23,34 @@ Francis GGGHH
         {{ list.3YearFundsOffered }}
     </td>
     <td>
+        {{ list.3YearFundsSold }}
+    </td>
+     <td>
+        {{ list.EstMostRecentFundDate }}
+    </td>
+    <td>
+        {{ list.InvestorLocation }}
+    </td>
+    <td>
+        {{ list.InvestorCity }}
+    </td>
+      <td>
+        {{ list.InvestorState }}
+    </td>
+     <td>
+        {{ list.InvestorCountry }}
+    </td>
+     <td>
+        {{ list.PortfolioSize }}
+    </td>
+       <td>
+        {{ list.NumberofDeals }}
+    </td>
+    <td>
         {{ list.Website }}
+    </td>
+    <td>
+        {{ list.AverageGrowthScore}}
     </td>
   </tr>
 {% endfor %}
