@@ -4,7 +4,7 @@ title:  "Venture Capital!"
 date:   2017-01-20 22:54:29 +0800
 categories: jekyll update
 ---
-Venture Capital List.
+<h1>Venture Capital List</h1>
 
 <table  align="left">
 <th> {{ Header }} </th>
