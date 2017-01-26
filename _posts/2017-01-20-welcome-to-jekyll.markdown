@@ -4,10 +4,9 @@ title:  "Venture Capital!"
 date:   2017-01-20 22:54:29 +0800
 categories: jekyll update
 ---
+Venture Capital List
 
-Francis GGGHH
-
-<table>
+<table  align="center">
 {% for list in site.data.vclist %}
   <tr>
    <td>
