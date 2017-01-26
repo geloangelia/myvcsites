@@ -9,6 +9,9 @@ Venture Capital List
 <table  align="center">
 {% for list in site.data.vclist %}
   <tr>
+  <th>
+  No.
+  </th>	
    <td>
         {{ list.No }}
     </td>
