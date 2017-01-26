@@ -11,7 +11,7 @@ Francis Angelo G
 {% for list in site.data.vclist %}
   <tr>
    <td>
-        {{ list.,No }}
+        {{ list.No }}
     </td>
   </tr>
 {% endfor %}
