@@ -13,15 +13,6 @@ Francis Angelo G
    <td>
         {{ list.,No }}
     </td>
-    <td>
-        {{ list.,3 Year Funds Offered }}
-    </td>
-    <td>
-        {{ list.3 Year Funds Sold }}
-    </td>
-    <td>
-        {{ list.Est. Most Recent Fund Date }}
-    </td>
   </tr>
 {% endfor %}
 </table>
