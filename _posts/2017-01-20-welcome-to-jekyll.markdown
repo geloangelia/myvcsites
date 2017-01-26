@@ -11,13 +11,13 @@ Francis Angelo
 {% for member in site.data.vclist %}
   <tr>
     <td>
-        {{ member.Est. Most Recent Fund Date }}
+        {{ member.Est.MostRecentFundDate }}
     </td>
     <td>
-        {{ member.Investor Location }}
+        {{ member.InvestorLocation }}
     </td>
     <td>
-        {{ member.Investor City }}
+        {{ member.InvestorCity }}
     </td>
   </tr>
 {% endfor %}
