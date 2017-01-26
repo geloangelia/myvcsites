@@ -13,6 +13,15 @@ Francis Angelo G
    <td>
         {{ list.No }}
     </td>
+     <td>
+        {{ list.Name }}
+    </td>
+      <td>
+        {{ list.Type }}
+    </td>
+    <td>
+        {{ list.3 Year Funds Offered }}
+    </td>
   </tr>
 {% endfor %}
 </table>
