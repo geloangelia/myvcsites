@@ -7,6 +7,14 @@ categories: jekyll update
 <h1>Venture Capital List</h1>
 
 <table  align="left">
+<thead align="left" style="background-color: #e2dddd">
+      <tr>
+          <th>No</th>
+          <th>Name</th>
+          <th>Type</th>
+      </tr>
+  </thead>
+  <tbody>
  {% for list in site.data.vclist %}
   <tr>
    <td>
@@ -53,4 +61,5 @@ categories: jekyll update
     </td>
   </tr>
   {% endfor %}
+  </tbody>
 </table>
