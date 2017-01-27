@@ -6,8 +6,8 @@ categories: jekyll update
 ---
 <h1>Venture Capital List.</h1>
 
-<table>
-<thead align="left">
+<table align="left">
+<thead>
       <tr>
           <th>No</th>
           <th>Name</th>
