@@ -7,7 +7,7 @@ categories: jekyll update
 <h1>Venture Capital List.</h1>
 
 <table align="left">
-<thead>
+<thead align="left">
       <tr>
           <th>No</th>
           <th>Name</th>
@@ -25,7 +25,7 @@ categories: jekyll update
           <th>Average Growth Score</th>
       </tr>
   </thead>
-  <tbody>
+  <tbody align="left">
  {% for list in site.data.vclist %}
   <tr>
    <td>
